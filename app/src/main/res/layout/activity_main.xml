@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.urja.hemendra.mycustomcardview.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.urja.hemendra.giftcardlibrary.GiftCardView
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                card:bgStartColor="#11cd6e"
+                card:buyButtonColor="#11cd6e"
+                card:cardBgColor="#33475f"
+                card:buttonByText="Buy"
+                card:cardGiftTitle="From Love"
+                card:cardGiftLogo="@mipmap/ic_launcher"
+                card:buttonCheckText="Check"
+                card:checkButtonColor="#2c2c2c"
+                card:bgPackColor="#56abe4"
+                card:priceTextColor="#fff"/>
+            <com.urja.hemendra.giftcardlibrary.GiftCardView
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                card:bgStartColor="#11cd6e"
+                card:buyButtonColor="#11cd6e"
+                card:cardBgColor="#33475f"
+                card:buttonByText="Buy"
+                card:cardGiftTitle="From Love"
+                card:cardGiftLogo="@mipmap/ic_launcher"
+                card:buttonCheckText="Check"
+                card:checkButtonColor="#2c2c2c"
+                card:bgPackColor="#56abe4"
+                card:priceTextColor="#fff"/>
+            <com.urja.hemendra.giftcardlibrary.GiftCardView
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                card:bgStartColor="#11cd6e"
+                card:buyButtonColor="#11cd6e"
+                card:cardBgColor="#33475f"
+                card:buttonByText="Buy"
+                card:cardGiftTitle="From Love"
+                card:cardGiftLogo="@mipmap/ic_launcher"
+                card:buttonCheckText="Check"
+                card:checkButtonColor="#2c2c2c"
+                card:bgPackColor="#56abe4"
+                card:priceTextColor="#fff"/>
+
+            <com.urja.hemendra.giftcardlibrary.GiftCardView
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                card:bgStartColor="#11cd6e"
+                card:buyButtonColor="#11cd6e"
+                card:cardBgColor="#33475f"
+                card:buttonByText="Buy"
+                card:cardGiftTitle="From Love"
+                card:cardGiftLogo="@mipmap/ic_launcher"
+                card:buttonCheckText="Check"
+                card:checkButtonColor="#2c2c2c"
+                card:bgPackColor="#56abe4"
+                card:priceTextColor="#fff"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
